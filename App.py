@@ -8,8 +8,9 @@ st.set_page_config(page_title="Code Assistant", page_icon="💻", layout="wide")
 # ---------- Models ----------
 # Edit this dict to add or change models (display name -> OpenRouter model id).
 MODELS = {
-    "Qwen3 Coder (free)": "qwen/qwen3-coder:free",
-    "DeepSeek Chat (free)": "deepseek/deepseek-chat-v3-0324:free",
+    "North Mini Code (free)": "cohere/north-mini-code:free",
+    "GPT-OSS 120B (free)": "openai/gpt-oss-120b:free",
+    "Free Router (auto)": "openrouter/free",
 }
 CUSTOM = "Custom model id..."
 
