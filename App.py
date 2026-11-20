@@ -8,8 +8,10 @@ st.set_page_config(page_title="Code Assistant", page_icon="💻", layout="wide")
 # ---------- Models ----------
 # Edit this dict to add or change models (display name -> OpenRouter model id).
 MODELS = {
+    "Laguna S 2.1 (free)": "poolside/laguna-s-2.1:free",
     "North Mini Code (free)": "cohere/north-mini-code:free",
-    "GPT-OSS 120B (free)": "openai/gpt-oss-120b:free",
+    "Laguna XS 2.1 (free)": "poolside/laguna-xs-2.1:free",
+    "Gemma 4 31B (free)": "google/gemma-4-31b-it:free",
     "Free Router (auto)": "openrouter/free",
 }
 CUSTOM = "Custom model id..."
